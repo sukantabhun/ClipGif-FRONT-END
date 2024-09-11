@@ -1,0 +1,88 @@
+.no-results-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+.gif-gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    height: 100vh; /* Or a fixed height to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .gif-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+
+  
+  .gif-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .gif-item {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative; /* Added for positioning the download button */
+  }
+  
+  .gif-item img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .btn-download {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f2ce53;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .btn-download:hover {
+    background-color: #f2ce53;
+  }
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 110px); /* Adjust width to fit with button */
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  

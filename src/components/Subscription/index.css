@@ -1,0 +1,65 @@
+.subscription-plans {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .plan-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 300px;
+  }
+  
+  .plan.selected {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+  }
+  
+  .plan h2 {
+    margin: 0;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plan li {
+    margin: 10px 0;
+  }
+  
+  .subsc-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #f2ce53;
+    border-radius: 8px;
+    border: none;
+  }
+  .sub-heading{
+    color: #f2ce53;
+  }
+  .text{
+    font-weight: 700;
+  }

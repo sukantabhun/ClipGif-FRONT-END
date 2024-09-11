@@ -1,0 +1,28 @@
+.header-text {
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .active {
+    border-color: #f2ce53;
+    color: #f2ce53  ;
+    border-bottom: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .language-container {
+    list-style: none;
+    display: flex;
+    column-gap: 40px;
+    width: fit-content;
+  }

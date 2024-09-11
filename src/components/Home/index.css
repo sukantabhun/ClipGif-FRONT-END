@@ -1,0 +1,41 @@
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100vw;
+    height: 80vh;
+}
+  
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+    padding-top: 50px;
+    width: 100vw;
+    height: 80vh;
+  }
+}
+
+.upload-method-item{
+  padding: 20px;
+  width: 200px;
+  border-radius: 12px;
+}
+
+.tab-container{
+  display: flex;
+  column-gap: 70px;
+}
+.rule-line{
+  color: #000000;
+  width: 80%;
+  margin-bottom: 200px;
+}
